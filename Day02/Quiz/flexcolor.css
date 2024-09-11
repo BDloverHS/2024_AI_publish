@@ -1,0 +1,26 @@
+.box {
+  width: 1500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+}
+
+.color_box {
+  text-align: right;
+  width: 500px;
+  height: 500px;
+}
+
+.one {
+  background-color: #1abc9c;
+}
+
+.two {
+  background-color: #2ecc71;
+}
+
+.three {
+  background-color: #3498db;
+}

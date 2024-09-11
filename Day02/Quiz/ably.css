@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tab {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+div {
+  width: 300px;
+  background-color: black;
+  padding: 15px 0px;
+  padding-left: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}

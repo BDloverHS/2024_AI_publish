@@ -1,0 +1,71 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.line1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.line3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.color_box {
+  width: 300px;
+  height: 300px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.name {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.one {
+  background-color: #1abc9c;
+}
+
+.two {
+  background-color: #2ecc71;
+}
+
+.three {
+  background-color: #3498db;
+}
+
+.four {
+  background-color: #16a085;
+}
+
+.five {
+  background-color: #27ae60;
+}
+
+.six {
+  background-color: #2980b9;
+}
+
+.seven {
+  background-color: #f1c40f;
+}
+
+.eight {
+  background-color: #e67e22;
+}
+
+.nine {
+  background-color: #e74c3c;
+}

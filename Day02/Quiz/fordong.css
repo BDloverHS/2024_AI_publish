@@ -1,0 +1,39 @@
+.back {
+  width: 800px;
+  height: 300px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.front {
+  /* 자식에 따라서 너비가 결정됨 -> widht : fit-content */
+  width: 95%;
+  height: 90%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.line {
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tab {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  font-size: 30px;
+}
