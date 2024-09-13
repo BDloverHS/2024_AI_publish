@@ -1,0 +1,32 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.subject {
+  width: 100vw;
+  height: 55vh;
+  background-color: #f9fafb;
+}
+
+.contents2 {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 200px 0px;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+
+.text_box > h3 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Toss Product Sans";
+}

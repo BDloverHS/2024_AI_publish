@@ -1,0 +1,43 @@
+.cloth {
+  width: 250px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.text {
+  width: 100%;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.sale {
+  color: red;
+}
+
+.brand {
+  font-weight: bold;
+  color: #778cbd;
+  font-size: 14px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro_sub {
+  color: #a7a9a7;
+  font-size: 15px;
+}

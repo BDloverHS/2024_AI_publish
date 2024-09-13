@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "MaruBuri";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2)
+      format("woff2"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "MaruBuriSemiBold";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2)
+      format("woff2"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "MaruBuriBold";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2)
+      format("woff2"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "MaruBuriLight";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2)
+      format("woff2"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "MaruBuriExtraLight";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2)
+      format("woff2"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf)
+      format("truetype");
+}
+
+.screen {
+  width: 400px;
+  height: 800px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 999px;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFxUXFRUXFRgVFxcYFxcXFhcXFxcYHSggGBolHRcVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQFy0dHR0tLS0tKy0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0rLS0tKystKy0tLS0tLS0tLTctLf/AABEIARMAtwMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xABGEAACAQICBQgFCAcIAwAAAAABAgADEQQhBRIxQVEGBxNhcYGRoSIyscHwFEJSYnKS0eEjJHOCorLDM0NTo7PC0vElNJP/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAgEDBP/EACARAQEAAgIDAAMBAAAAAAAAAAABAhEhMQMSQSIyUUL/2gAMAwEAAhEDEQA/AOuwhCUkXiQiXgF4t4l4kBYXiQgLCJeEBbwvEvC8BYRt4sBYXiQgOEIkICwhCARbxIQCEIQCBgYQEiXhC8AhEiQFvEvEMIC3iXiXiXgPvC8ZeF4D7xRGgxYDgYkSLeAoixBFgLEhCAsIQgEIQgJCEQwCJCITADEJhGkwAmITC8aWgKWjS00/lXy/oYMmmo6asNqKQAv22+b2WJ7Jo9TnOxpN9Wiq7lCm/wB4mZcpFTG12gNDXnFsdzoYqogWkqI2QLL6X3Q2Q779017EcsMZYOcTVIO9ajLY7MwLWmezfR6MBPdHgzgOi+X+MXNcQX6qln8zn5idC5Nc49CsRTxH6F9zE/oye0+r35dce0LjW+iKDI0e4uN/CPlIOixojoBFiRYBAQhAUwiRYCRIRDADGmKY0wEJjSYGMJgDNOdc4fLU074XCtapsq1R8z6qfW4nd27M7zg8ovkWGLIbVHOpT6ib3buAPfacGqYvfck7bnaSd57ZOVXjE5Fu3rzueJvtlOqSxsM956+HjFVi4HWfIbfdNh0LokCrS1hfWIJHVqt+AnO3TrJtisNo5yo6yFNuLG3utFxejKlNtRhfIHub0R+E3pcAKdMeje1Wn/qfmD3y3yjwAFRmte2HLW61qXk+y7hHL6uEZGJt2/n8bpPh61xY9x4TcMTgBrsDnekD3rYeZvNLFE6zDgff+ZHfNl2m46bjyM5a1cG4puS9C+aHPVH0qfD7Ow9RzncMJiUqItRGDIwDKwzBBFwbzzFVzFxt3TonNHyr1XGDqH0XuaJ+i+ZZOw5kdfWwl41zyxdgBixgjwZ0cixYkWAQhFgJFhCAyBMDGmARhMcTGEwGkxjGKZG8Dh/PHpXpcYKQPo0V1T9t7O/lqDuM0Fmufb+EyXKXFGria1Q569ao3cXNvICUsEl38T7hObrr4zeg8Lrvb6I/M+6bkKIFWib7FbyVyPd4zDckKOstd+BAHh+M2OmoNekpNrpVPcNUX/zBOOV5ejCcL+lUIo1DbYA4/dCn+mZJpqp+lpDc9Gqvg1Fo7SdamabDWW7Ub2uCcr5eDGYvE4nXGAcHMhh/lo5v9wwpGUHSL9gL2Xu/tBmj02AqVAdpUsBvJT0rfwETeq2VUncG78hU9oHnNB0xV6LEh1N9Wo5PYza1vBiIxZnxCYwBXZQd9x1g+kJRwlc06oZbghldSMiCCCLcLERcdXuUKqQFGpc7wM079W3hIKxzDdftluNeoNAaQFehTq5XZRe30hkbDdmD5TJiaTzW4gvgKd9zOo7FIUTdFM7TpxymqkvFjRHTUiEIQFhEhAYYl4GJARowmOMYYEbSDFtZWPUfYZOxmP0zU1aFVr2tTck8LKTfyhry/iaus1+JJ8Zc0aubHdY+QJlGlRZm9EE6oz6hxmW0bT/R1Tv1DbvuB7ZyvTrj22jk8zJhBqW1qlSxJ2C5QDtzc+EtaD0UK1V2q1GOqFFwbZm5YdgAp+MMFQKYGmyjbVOqN5IW6jrzQCV8NoPFsCoY07hjrDI652G/AZDLPLbONvL1YzjplsRoiiGOo5PrD1r2Fxq5jqlDRSt0mGpbdSpWB7DTJHkfIybRPJLEqDr1WaoSNVg7MFGd/WFjf3TdNH6DFJg7WLZE2GV7WuL98zluuP4xtXRjqWZ9hZzbq1Qqjwue+avyp0dQRSzMqk5qN5Ivew35WHYDOoaUpayAzV9K8j6WIJZwWuQdttWwsNXgNuWyZ1TuOP16b2sAdUj0CQQCqkkWvttmJBa4tv8Af8eydfxXI5XREzsgsg4Db3m+d5ofKzQZw1QHc2V+sfiB5GdJnu6csvHZNuk8z2L1sEV3pWdfvBag/nPhOh0zOO8y+MtUxNAnIinUUdl0b2pOuUXnfHp5cu1xTHSJWkglJOhEiwCEIQI40mKY0mAhkZjmMjYwGn42zCcr7/IcVq3v8nr2/wDm0zTSppCiHpuh2MrKewqQfbDXmfRRNnUGwut7cLEW7PxmTaiyeiNtRRa3bf3W75jKFNqNco+RvqsOGYv4H2TZcRhWW6/OWzUyBe6sQSDvuDeefLt6cJuOgciMMlTCUWYeqamXXrsPcJt9GgvATTeReIsj0+Da4HBXANvG827D1Zy+u3xbSiBKmOcDKWDVmJ0jitS7FSRbLtG6VbwyTlkCQUteR4fZaatS0hizRYmkq1LHUUsWW+65AGX4TOaJrsygstjYa3C++0na/XTIss0jnQog4QvbNXTPtYD3zdmaaJzr17YRV+nVQdyhnP8AKInacrw1HmvxWrpJB9NKiH7vSe1BO8UGnBua/ClsfTe2Sio17cVIHtndqJnqxeLJeQyUGV6ZkwMtCWEQGLeACLEhAgJjSYpjGMAMYTAmNJgI0hqDbJCZEx+M4HC+crACnjncDJlRj9qoz/8AE+BmOo6e1B0VYE6hvSqZEqN6Nf1lI37jxGzZedmmflI2WZKIAzuSjV8/CoJzzSBux7TOVkt07Y5WTcdW5P45DqVVa4FqdTq1gGF+FmI27iZu1MzifIrSS06vR1LGnWXo2B2ay+r4g27xOsaNxxtqtclTYNt1huJtvta/XeccpqvThlubZ0NI8VikprrMQAOMYtXhNY5R6Ies2u1RylhZFsAOvrk7dMcZbqrdTlKhvqLs3ki1vdMlozS1Or6ps28XmmUNBYfK+vfhsmW0NyfpI4dUK2zHpHbs2XyHVM275+PGRtpac+5zFNWph6C7yWZtyKSq6x6vXufqzfAZpWhMS2Kx2IrKFekLUVzsQqZgjtbWcd3G4vCcvF5LqNo5PaAo4UAU12A57Tn1/G+bFTlLDLYAfnLlOemPLVumZOpldDJkMpCYRYwRwgOvCJCBWPxvjCYpMY0AvGGOMYYCMZDVa3XwHHqkjGQ16gVSxNgASScrDjA5FzpOpxag3LLTUsd13LgKOwKPHjOe1DdieJNu+bVytbpK9es19ZnCkG2QVbamRyKiytYnNfHVa4y+N053t1+LehsPr1lTg1+6xv5hZ0rAYtqTDWuRsv1dfZn4maFoRTSrUywsctvBth7N06xTwKuvdOHl7ejw9Mhg64YAgy+gBmsLhKlI+gcuEyWFx7D1hOcrrYy5wtP6IjujUDKURjb7jMdyh04cPh6lYLrFQLA5AsSFW/eRK4rLxGL5xeUa4aiaKt+lqggAbVQ5M54X9UddzuMr81uHZKDFhtKFSN6tTVx4FyO6aCNH4jGV3eqxLsCSx2ZC4VdwABGW4AzpXN7WPyYUnXVqUmKOv2bAHwt4TvjJI8uVtbnRlunKdKWqc6Ryq2hkymVqcsIZSUwMcIwRwgOhAQgU7TG4rTmFpm1TE0UPBqqA+F5wPGaYr1f7WtUqA7nqMw8CZRZpnsv1d4xXLbR1PbikP2A1TzQGYvEc5ej1Bs1V+padr/fInF2aMJmex6x1qtzrYYD0MPWJ+sUXzDNMLjudKpUVlTDql8g3SFiOsWVc+vdOeRbTN01FrG456lr2AGSqBZVHUPftNhcmY9k8ZNGkTGukYnk30uBwNdc2NJQTbaGQG2XBl8Nk2rk+GNJdcWYZG+3Lj1x3IRxV0PQO3oy6/cqMP5ZlRTtOHknL0eO/ihenKz0RMgRIWWQ6yqupNe5bAHDENkhdA7bkBNlY9QfUmz1FtMRpnDdNh8VTGZ+T1cvrapKea+UY/tGZ/rVDk/gBTpqGA1gBrEb7C1+20z+Dwyq7OosWtrdeqLey3gJo3ILTvSoKL+uq+ifpqAAAfrAW9vGb5hzPTp5LWSpGWqZlOiZbpy4mrVOTpKyGToZSU6mSAyJTHiGHwiQgeUg8fKzxadSQ6JWjY68aZga0EcH3iLE6IXvv8IDjEIiwgdk5lMTr4SvQPzKtwPq1EHvV5tdNfRF9oyPaMjOa8yOMC4utS/xKQbvpvb+oZ1GstmcfWJ8c/fIzjr41RqZjeil5FjayZTn6uu2Jr7JBybw9/lTHYdRe6zH/AHS/iacu6BwNqFS/94zHusF9xmYT8jO/i834Ko1F/RJDIxAI2gqbTf8AQPLxclxS6vCqgJH76bR2i/YJo2l8MaWJrUztWrUH8Rt5WkJnoeV3/BYlKih0ZWVhkykFT3iZCmZ5/wBDaZr4Rteg5W/rKc0b7S7+3bwInUeTPL3D17JVtQqHL0j+jY/Vc7OxrcATKjK3imZOhlanLCGUhMpkiyIR4MCSEQQgeTbxtM2yiXjHNjeQ6LamKZEhkomBj5Zx4MDGJkbeEB0IpiQNm5uMX0WkcOdgYtTP76MB/Fqzu9en6V7ZEA+GR90804LFdFUSqNtN0qduowe3lPTbkNTDDMC1uw/AmWKxuqhtaNc3ikyNjOddohqWAmWWn0dJRwGfadsx+EQPUVd3rHsGfttMvjx6JlYT6jyX486c4VDU0hX4MUcd6LfzBmvDKbXzmsrY0OjBgaSZgg5hqgIy7pqstyJ0gG2KDGxTA2jkzyyxOEIUN0lIf3Tm4t9U7U7suozr3JzlPhsYB0b2ffSawccbD5w6xfrtPPQMlpVypBBIINwd4PEGbKWPTymPBnFtAc5WJoALWAroLesbVAOp/nfvAnrnXNEaTp4mklak2sji43EEZFSNzA3B7JUqLNMgsIgMJrHkx0kTcDLMiqCQ6G0GloGU0FjLSmA8RHG/hAGOmABhGU8jbwkkAE9F8h8T0+AoEm5NFVJ+so1G81M86Cdt5mcXrYIp/h1ai9zWq38XbwhraryNzJ8Wmq5HHPx/O8hIvOVd4v6Eoes535DsG3z9ks44XEno09VQo3C34mQ1xOsjhld1xLniwK069B1AHSLU1rC2alP+RmgTqfPVR9DDPweov3lU/wC2ctmsNtEJy+OMUweYCJARDAQvYTq3MrpU/p8Kx+jWQX7Eqf0vOclqbRNu5ssWaekKPB9emf3kJH8QWbB6BBhIqbwlubyqIyoI72xrGQ6IdbMSyJUTNpaWBII4GMBjhMA438PZHgxsSkd3CA+dM5kMcFrV6BPrqjqOtCwbxDr4Tmd5s3N1iujx1PdrrUQHgQOkX+KmsVs5ru2mTZkPG49498do+jrMOrPw2edpFpd9akr9aN4j85d0XS9C/H3SP9Om9YshIapjiJTxVRidRDY/Ob6I/wCXCW5acz56a4ajSVQTqVhrNuDGnUATrO0nhlxnJxOyc7eFC4AWGS1aZ8dYX6ybzjYM0NMRt3fHmRnbMDohESOgQMPSmU5P19TE0HBtq1qTdwdSfKYv5x+PjbJAxGY2jMQPT9I2hIqVS4DcRfxzhLQ8xMLSNxeOIJihJC1Sn60sqZXqetLCzWHgR0aI4TGnSNjYg+MeIyotxAml/k/iDTxWHcHZWpX+zrqG8iZjaL3EeWIzG0ZjtGyGx6QxjH5OoG30R4OBNlpUwoAG7Lwmv4SzrSJ2Eq38WtNgeoApPAXmRuV+Ia7G+ovrbz9Ece3hFSgFFh47yeJi4anYXPrHNj1yUypE1oXPDS/8bUPB6J/zFHvnBzPQvOpS1tG4jqCN92oje6efLZRQwGMDRXFo0CYFvHrI5JTMCupuSesyRZEkkSB6N5P19fC4d/pUaR8aamEq8jj+o4X9hS/kEJcTXn/KQ16tshGlzGk32yVK9Q5jtllDK9WnJqZhiYGOEYsdeY0+NaW9F4Ppqgp64QtfVJ2Fvmr1XOXfL1Hk5WOoXtTRgSzE/wBmoUtdx1gXFj22gYOibNbjLBlnCaDqVVFRXpi+uUViwZhTNnIsp2ZeMt09A1S/R61MPcrqkvuvvCEWNr7fA5QO78jX6bB4ctt6Ki33kVr/AHtbwmwsbAKeI8s/dNb5BUwMDhGDE2pBT6O3VOqRt3EeXXNqqKCy57idm3IW8jEVackCY7VMQpKQ1nnAp62AxSjb0NQjtCkj2Tzkhnp/TeFNSk9PL0kZer0gVHtnnajybrFQSVGSZemSNZdYAhUNuvdFaxTEWjCsfj6BpsyG11cqbZi4uDY7xI0MkNtFvYHsPsjrRKxsp+NpgVlMlSQJJ0geguR//o4X9hS/kEI3kc36jhf2FP8AlEJcTXn2wiFIJSi1CBJUiqp6JkVE5QrVL5RtAwxZUyQCQgyUGY1f0PVppVV6utqodcBdpZc1HYSBM2vKZairTq07KwK1mXbYqVBTyJ981eEC9hdKdHTNO1S3SBwUq9HsFtUgowIORItuEyujuUGre9UuhZiUZCGNyWALjZm20KBlsmtNG0DYkQPR3Ntj0qYCibk2upuovdWsc77L+2bYtQZbeA93snNuZ6prYEgfMr1B4rTb/dOj0kJHx8cPCBMrfGf4xXf4z/GMURXEuDHaQqeicsrHYbd++cAxXKA03q0ytQ2ZlDGqusAAU/wrHjci9xtM77jhkZ5x5V0dTGV1+uT96ze+ZWRjsfW121szck+kdY7rXIAv4CQKYVDshaS1KDGYw2UDifZ/2IlNrSLHtmvZ7f8AqAiiSrIaZkwgd85DtfAYb9mB4Ej3RZW5uqmto6h1CoPCq4hLia4a8p4gwhJiqrx1GEJqVlRJBFhMUcIGEJgRpEPWHbCEDtfMof1av+3/AKdMe4TquHiQmwFPYOwRzQhNGMxu+efucIfrr9YF/Me4QhFZGsVIUoQktB2yDH+uPsj2mEJsKbSloRIRSO2815/8dT+3W/1XhCEqMvb/2Q==);
+  background-size: cover;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "MaruBuri";
+}
+
+.intro {
+  font-size: 15px;
+  color: #969696;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+}
+
+.tab {
+  background-color: white;
+  border-radius: 50px;
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.sns > .icon > i {
+  font-size: 30px;
+  color: white;
+}

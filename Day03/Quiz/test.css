@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.category {
+  width: 100vx;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  width: 20%;
+  border-radius: 30px;
+}
+
+.box1 {
+  background-image: url("box1.jpg");
+  background-size: cover;
+}
+
+.box2 {
+  background-image: url("box2.jpg");
+  background-size: cover;
+}
+
+.box3 {
+  background-image: url("box3.jpg");
+  background-size: cover;
+}
+
+.box4 {
+  background-image: url("box4.jpg");
+  background-size: cover;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+span {
+  padding-left: 20px;
+  color: white;
+}
+
+.title {
+  color: rgb(17, 0, 255);
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "yg-jalnan";
+}
+
+.intro {
+  font-size: 20px;
+  font-weight: 500;
+}

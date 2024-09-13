@@ -1,0 +1,19 @@
+.one {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+
+.contents {
+  width: 100%;
+  /* 너가 아무리 너비가 넓어도 1000px은 넘지마셈 ㅅㄱ */
+  max-width: 1200px;
+  background-color: skyblue;
+  height: 100px;
+  /* padding, margin에서 숫자를 쓸 때, 4개를 쓰면 상 / 우 / 하 / 좌 순서이다. */
+  /* padding, margin에서 숫자를 쓸 때, 3개를 쓰면 상 / 좌우 / 하 순서이다. */
+  /* padding, margin에서 숫자를 쓸 때, 2개를 쓰면 상하 / 좌우 순서이다. */
+  /* padding, margin에서 숫자를 쓸 때, 1개를 쓰면 상하좌우 모두 영향을 준다 */
+  /* auto(중앙화 필살기) : margin: 0 auto */
+  margin: 0 auto;
+}
