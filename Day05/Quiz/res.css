@@ -1,0 +1,56 @@
+.contents1 {
+  background-color: #1abc9c;
+}
+
+.contents2 {
+  background-color: #2ecc71;
+}
+
+.contents3 {
+  background-color: #3498db;
+}
+
+.contents4 {
+  background-color: #9b59b6;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
